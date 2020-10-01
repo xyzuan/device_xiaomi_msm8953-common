@@ -172,6 +172,10 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.1.vendor \
     android.hardware.drm@1.0.vendor
 
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    RemovePackages
+
 # GPS
 PRODUCT_PACKAGES += \
     android.hardware.gnss@1.0.vendor \
