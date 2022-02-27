@@ -307,7 +307,8 @@ PRODUCT_PACKAGES += \
 # RIL
 PRODUCT_PACKAGES += \
     libcnefeatureconfig \
-    libxml2
+    libxml2 \
+    librmnetctl
 
 PRODUCT_PACKAGES += \
     android.system.net.netd@1.1.vendor \
